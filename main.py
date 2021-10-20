@@ -5,7 +5,15 @@ def main():
     gary = trtl.Turtle()
     box(gary)
 
-#draw the lines
+    #draw the lines
+    if (gary.xcor() <= 130):
+        gary.penup()
+        gary.goto(-500, -300)
+        gary.pendown()
+        gary.forward(xpos + 10)
+        gary.goto(130, ypos+10)
+        xpos += 10
+        ypos += 10
 
     wn = trtl.Screen()
     wn.mainloop()
