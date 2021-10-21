@@ -16,6 +16,7 @@ def main():
         xpos += 10
         ypos += 10
 
+
     wn = trtl.Screen()
     wn.mainloop()
 
