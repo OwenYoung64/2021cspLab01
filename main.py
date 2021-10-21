@@ -4,14 +4,15 @@ def main():
     #create turtle and set up box
     gary = trtl.Turtle()
     box(gary)
+    xpos = -500
+    ypos = -300
 
     #draw the lines
-    if (gary.xcor() <= 130):
-        gary.penup()
-        gary.goto(-500, -300)
+    if (gary.ycor() <= 330):
         gary.pendown()
-        gary.forward(xpos + 10)
+        gary.goto(xpos + 10)
         gary.goto(130, ypos+10)
+        gary.penup()
         xpos += 10
         ypos += 10
 
