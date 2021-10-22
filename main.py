@@ -18,6 +18,17 @@ def main():
         xpos += 15.4
         ypos += 10
 
+    while (gary.ycor() < 330):
+        gary.penup()
+        gary.goto(480, ypos)
+        gary.pendown()
+        gary.goto(xpos, ypos+10)
+        gary.penup()
+        xpos += 15.4
+        ypos -= 10
+
+
+
 
     wn = trtl.Screen()
     wn.mainloop()
