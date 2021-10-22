@@ -8,12 +8,14 @@ def main():
     ypos = -300
 
     #draw the lines
-    if (gary.ycor() <= 330):
-        gary.pendown()
-        gary.goto(xpos + 10)
-        gary.goto(130, ypos+10)
+
+    while (gary.ycor() < 330):
         gary.penup()
-        xpos += 10
+        gary.goto(xpos, -300)
+        gary.pendown()
+        gary.goto(480, ypos+10)
+        gary.penup()
+        xpos += 15.4
         ypos += 10
 
 
