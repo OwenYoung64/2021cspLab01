@@ -97,6 +97,7 @@ def main():
         xpos += 7.7
         ypos -= 5
 
+
     xpos = 230
     ypos = 170
     gary.goto(230, ypos)
