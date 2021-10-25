@@ -18,14 +18,17 @@ def main():
         xpos += 15.4
         ypos += 10
 
+    xpos = 480
+    ypos = -300
+    gary.goto(480, ypos)
     while (gary.ycor() < 330):
         gary.penup()
-        gary.goto(480, ypos)
+        gary.goto(xpos, -300)
         gary.pendown()
-        gary.goto(xpos, ypos+10)
+        gary.goto(-500, ypos+10)
         gary.penup()
-        xpos += 15.4
-        ypos -= 10
+        xpos -= 15.4
+        ypos += 10
 
 
 
