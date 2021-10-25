@@ -7,7 +7,7 @@ def main():
     xpos = -500
     ypos = -300
 
-    #draw the lies
+    #draw the lines
     #making the first box
 
     xpos = -500
